@@ -1,0 +1,12 @@
+import java.util.*;
+class arofcircle
+{
+public static void main(String args[])
+{
+	Scanner s=new Scanner(System.in);
+	System.out.print("Enter the radius:");
+	int r=scan.nextInt();
+	System.out.println("area of circle : "+(3.14*r*r));
+	System.out.println("Circumfrences of circle : "+(3.14*2*r));
+}
+}
