@@ -1,0 +1,20 @@
+import java.util.*;
+class sumandavg
+{
+	public static void main(String args[])
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.print("enter the 1st no: ");
+		int a=scan.nextInt();
+		System.out.print("enter the 2nd no: ");
+		int b=scan.nextInt();
+		System.out.print("enter the 3rd no: ");
+		int c=scan.nextInt();
+		System.out.print("enter the 4th no: ");
+		int d=scan.nextInt();
+		System.out.print("enter the 5th no: ");
+		int e=scan.nextInt();
+		System.out.println("sum of 5 numbers: "+(a+b+c+d+e) );
+		System.out.println("average : "+(a+b+c+d+e)/5 )
+	}
+}
