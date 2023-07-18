@@ -1,0 +1,19 @@
+import java.util.*;
+import util.math.*;
+class aroftriangle
+{
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.print("enter the 1st side: ");
+		int a=s.nextInt();
+		System.out.print("enter the 2nd side: ");
+		int b=s.nextInt();
+		System.out.print("enter the 3rd side: ");
+		int c=s.nextInt();
+    int s=a+b+c;
+		double ans=s*(s-a)*(s-b)*(s-c);
+		System.out.println();
+		System.out.println("Area of triangle: "+ Math.sqrt(ans) );		
+	}
+}
