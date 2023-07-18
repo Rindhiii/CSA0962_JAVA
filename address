@@ -1,0 +1,27 @@
+import java.util.*;
+class address
+{
+public static void main(String[] args)
+{
+	Scanner s=new Scanner(System.in);
+	System.out.print("Enter the name:");
+	String a=s.nextLine();
+	System.out.print("Enter the Father name:");
+	String b=s.nextLine();
+	System.out.print("Enter the door no:");
+	String c=s.nextLine();
+	System.out.print("Enter the street name:");
+	String d=s.nextLine();
+	System.out.print("Enter the area:");
+	String e=s.nextLine();
+	System.out.print("Enter the city:");
+	String f=s.nextLine();
+	System.out.println("--------------Address---------");
+	System.out.println("name: "+a);
+	System.out.println("Father name:  "+b);
+	System.out.println("door no: "+c);
+	System.out.println("street name:  "+d);
+	System.out.println(" area:  "+e);
+	System.out.println("city:  "+f);
+}
+}
